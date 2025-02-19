@@ -80,10 +80,10 @@ struct FutureNoteScreen: View {
                             UIImpactFeedbackGenerator(style: .light).impactOccurred()
                             Analytics.shared.log(event: "FutureNoteScreen: Skip")
                             if mainVM.currUser.religion == "Muslim" {
-                                homeVM.currentScreen = .nextSteps
+//                                homeVM.currentScreen = .nextSteps
                             } else {
                                 homeVM.showRelapse = false
-                                homeVM.currentScreen = .itsOkay
+//                                homeVM.currentScreen = .itsOkay
                             }
                         }
                         .frame(maxWidth: .infinity)

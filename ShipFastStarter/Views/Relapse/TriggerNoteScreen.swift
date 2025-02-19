@@ -60,7 +60,7 @@ struct TriggerNoteScreen: View {
                         withAnimation {
                             mainVM.currentInterval.lapseNotes[Date().toString()] = noteText
                             DataManager.shared.saveContext(context: modelContext)
-                            homeVM.currentScreen = .future
+//                            homeVM.currentScreen = .future
                         }
                     }.disabled(noteText.count < 4)
                         .opacity(noteText.count >= 4 ? 1 : 0.5)
@@ -72,7 +72,7 @@ struct TriggerNoteScreen: View {
                         .onTapGesture {
                             withAnimation {
                                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                                homeVM.currentScreen = .future
+//                                homeVM.currentScreen = .future
                             }
                         }
                         .frame(maxWidth: .infinity)

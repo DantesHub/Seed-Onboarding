@@ -64,7 +64,7 @@ struct DhikarPlay: View {
                                     Analytics.shared.log(event: "DhikrPlay Relapse: Tapped X")
                                     homeVM.showCheckIn = false
                                     homeVM.showRelapse = false
-                                    homeVM.currentScreen = .itsOkay
+//                                    homeVM. currentScreen = .itsOkay
                                     mainVM.startDhikr = false
                                 }
                             }

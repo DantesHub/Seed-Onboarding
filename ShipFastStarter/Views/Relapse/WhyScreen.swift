@@ -83,7 +83,7 @@ struct WhyScreen: View {
                         DataManager.shared.saveContext(context: modelContext)
                         withAnimation {
                             UIImpactFeedbackGenerator(style: .light).impactOccurred()
-                            homeVM.currentScreen = .trigger
+//                            homeVM.currentScreen = .trigger
                         }
 
                     }.disabled(selectedOptions.isEmpty)

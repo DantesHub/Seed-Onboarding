@@ -162,7 +162,7 @@ struct bottomPop: View {
                         isPresented = false
                         Analytics.shared.log(event: "HomeScreen: Tapped Relapsed")
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                            homeVM.currentScreen = .itsOkay
+//                            homeVM.currentScreen = .itsOkay
                             homeVM.showRelapse = true
                         }
                     }, color: [Color(red: 0.52, green: 0.14, blue: 0.9), Color(red: 0.11, green: 0, blue: 0.21)])

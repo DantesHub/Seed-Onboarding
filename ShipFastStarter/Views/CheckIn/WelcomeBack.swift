@@ -331,7 +331,7 @@ struct MoodScreen: View {
                         Analytics.shared.log(event: "MoodScreen: Tapped Mid")
                         mainVM.checkInDay.moods["😐"]! += 1
 
-                        homeVM.currentScreen = .summary
+//                        homeVM.currentScreen = .summary
                         Task {
                             await mainVM.fetchToday()
                         }
@@ -342,7 +342,7 @@ struct MoodScreen: View {
                         // Button action here
                         Analytics.shared.log(event: "MoodScreen: Tapped Sad")
                         mainVM.checkInDay.moods["😔"]! += 1
-                        homeVM.currentScreen = .summary
+//                        homeVM.currentScreen = .summary
                         Task {
                             await mainVM.fetchToday()
                         }
