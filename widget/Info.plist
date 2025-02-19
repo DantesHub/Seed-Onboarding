@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>WKWidget</key>
+			<dict>
+				<key>WKWidgetKind</key>
+				<array>
+					<string>smallWidget</string>
+					<string>mediumWidget</string>
+				</array>
+			</dict>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widgetkit-extension</string>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OverusedGrotesk-Bold.ttf</string>
+		<string>OverusedGrotesk-Black.ttf</string>
+		<string>OverusedGrotesk-Book.ttf</string>
+		<string>OverusedGrotesk-ExtraBold.ttf</string>
+		<string>OverusedGrotesk-Light.ttf</string>
+		<string>OverusedGrotesk-Medium.ttf</string>
+		<string>OverusedGrotesk-Roman</string>
+		<string>OverusedGrotesk-SemiBold</string>
+	</array>
+	<key>WidgetConfigurations</key>
+	<array/>
+</dict>
+</plist>

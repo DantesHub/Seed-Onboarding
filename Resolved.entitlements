@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:5ufde.app.link</string>
+		<string>applinks:5ufde-alternate.app.link</string>
+		<string>applinks:5ufde.test.app.link</string>
+		<string>webcredentials:example.com</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.io.nora.nofap.widgetFun</string>
+		<string>group.io.nora.nofap.funOneSignalNotificationServiceExtension</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array/>
+</dict>
+</plist>
